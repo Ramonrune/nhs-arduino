@@ -32,23 +32,112 @@ Conclui-se que o sistema poderá auxiliar muito no ambiente da saúde, facilitan
 Leitor de NFC utilizando Arduino Mega e NFC PN532 utilizado no projeto NHS.
 
 ## Componentes
-Arduino Mega<br>
-Kit módulo leitor RFID NFC PN532<br>
-Kit Jumpers Macho-Macho x65 unidades<br>
-Protoboard 830 Pontos<br>
-Buzzer ativo 5V<br>
+<p>&nbsp;</p>
+<p>Tabela - Componentes utilizados</p>
+<table>
+<tbody>
+<tr>
+<td width="519">
+<p><strong>Nome do componente</strong></p>
+</td>
+<td width="85">
+<p><strong>Pre&ccedil;o (R$)</strong></p>
+</td>
+</tr>
+<tr>
+<td width="519">
+<p>Arduino Mega</p>
+</td>
+<td width="85">
+<p>R$ 94,90</p>
+</td>
+</tr>
+<tr>
+<td width="519">
+<p>Kit m&oacute;dulo leitor RFID NFC PN532</p>
+</td>
+<td width="85">
+<p>R$ 117,90</p>
+</td>
+</tr>
+<tr>
+<td width="519">
+<p>Kit Jumpers Macho-Macho x65 unidades</p>
+</td>
+<td width="85">
+<p>R$ 12,90</p>
+</td>
+</tr>
+<tr>
+<td width="519">
+<p>Protoboard 830 Pontos</p>
+</td>
+<td width="85">
+<p>R$ 16,90</p>
+</td>
+</tr>
+<tr>
+<td width="519">
+<p>Buzzer ativo 5V</p>
+</td>
+<td width="85">
+<p>R$ 3,40</p>
+</td>
+</tr>
+</tbody>
+</table>
 
+## Circuito
 ![alt text](https://github.com/Ramonrune/nhs-arduino/blob/master/circuit.png)
 
 A Figura apresenta o circuito utilizado. Pode-se notar a presença do Arduino Mega, do módulo PN532 e de um Buzzer. O módulo PN532 é utilizado para obter o código de identificação do equipamento de acesso, e no momento que isto ocorrer, o buzzer irá alertar o usuário através do som.
 
 ## Ligações entre o Arduino e o módulo PN532
-Arduino	  PN532<br>
-GND	      GND<br>
-5V	      VCC<br>
-18 – TX1	SCL<br>
-19 – RX1	SDA<br>
-
+<p><a name="_Toc530233522"></a>Tabela - Liga&ccedil;&otilde;es entre o Arduino e o m&oacute;dulo PN532</p>
+<table>
+<tbody>
+<tr>
+<td width="302">
+<p><strong>Arduino</strong></p>
+</td>
+<td width="302">
+<p><strong>PN532</strong></p>
+</td>
+</tr>
+<tr>
+<td width="302">
+<p>GND</p>
+</td>
+<td width="302">
+<p>GND</p>
+</td>
+</tr>
+<tr>
+<td width="302">
+<p>5V</p>
+</td>
+<td width="302">
+<p>VCC</p>
+</td>
+</tr>
+<tr>
+<td width="302">
+<p>18 &ndash; TX1</p>
+</td>
+<td width="302">
+<p>SCL</p>
+</td>
+</tr>
+<tr>
+<td width="302">
+<p>19 &ndash; RX1</p>
+</td>
+<td width="302">
+<p>SDA</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Diagrama para leitura do NFC
 ![alt text](https://github.com/Ramonrune/nhs-arduino/blob/master/reader.png)
