@@ -21,6 +21,6 @@ GND	      GND<br>
 19 – RX1	SDA<br>
 
 
-## NFC Read Diagram
+## Diagrama para leitura do NFC
 ![alt text](https://github.com/Ramonrune/nhs-arduino/blob/master/reader.png)
 
