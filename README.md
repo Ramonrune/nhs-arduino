@@ -34,7 +34,7 @@ Leitor de NFC utilizando Arduino Mega e NFC PN532 utilizado no projeto NHS.
 ## Componentes
 <p>&nbsp;</p>
 <p>Tabela - Componentes utilizados</p>
-<table>
+<table width="100%">
 <tbody>
 <tr>
 <td width="519">
