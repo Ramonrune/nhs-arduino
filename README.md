@@ -20,3 +20,7 @@ GND	      GND<br>
 18 – TX1	SCL<br>
 19 – RX1	SDA<br>
 
+
+## NFC Read Diagram
+![alt text](https://github.com/Ramonrune/nhs-arduino/blob/master/reader.png)
+
